@@ -1,6 +1,6 @@
 package com.fastorm.logging;
 
-public interface Logger {
+public interface ILogger {
 
     /**
      * Returns true if trace log level enabled
