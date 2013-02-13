@@ -1,4 +1,4 @@
 package com.fastorm.logging;
 
-public class LoggerAdapter {
+public class LoggerImpl {
 }
