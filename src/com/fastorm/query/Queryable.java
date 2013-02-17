@@ -5,7 +5,7 @@ public interface Queryable {
     /**
      * Builds sql query
      * @param query
-     * @return
+     * @return query
      */
-    public StringBuilder buildQuery(String query);
+    public String buildQuery(String query);
 }
