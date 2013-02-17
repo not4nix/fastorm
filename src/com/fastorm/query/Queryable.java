@@ -7,5 +7,5 @@ public interface Queryable {
      * @param query
      * @return query
      */
-    public String buildQuery(String query);
+    public String buildQuery(StringBuilder query);
 }
