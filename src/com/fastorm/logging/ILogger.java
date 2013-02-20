@@ -59,38 +59,12 @@ public interface ILogger {
     public boolean isFatalErrorEnabled();
 
     /**
-     * Write trace log
-     * @param message log message
-     */
-    public void trace(String message);
-
-    /**
-     * Write trace log
-     * @param message log message
-     * @param throwable throwable
-     */
-    public void trace(String message, Throwable throwable);
-
-    /**
      * Write trace log into file which located into external storage
      * @param file file name
      * @param message log message
      * @param throwable throwable
      */
     public void trace(File file, String message, Throwable throwable);
-
-    /**
-     * Write debug log level
-     * @param message log message
-     */
-    public void debug(String message);
-
-    /**
-     * Write debug log level
-     * @param message log message
-     * @param throwable throwable
-     */
-    public void debug(String message, Throwable throwable);
 
     /**
      * Write debug log into file which located into external storage
@@ -100,18 +74,6 @@ public interface ILogger {
      */
     public void debug(File file, String message, Throwable throwable);
 
-    /**
-     * Write warn log level
-     * @param message log message
-     */
-    public void warn(String message);
-
-    /**
-     * Write warn log level
-     * @param message log message
-     * @param throwable throwable
-     */
-    public void warn(String message, Throwable throwable);
 
     /**
      * Write warn log into file which located into external storage
@@ -122,38 +84,12 @@ public interface ILogger {
     public void warn(File file, String message, Throwable throwable);
 
     /**
-     * Write info log level
-     * @param message log message
-     */
-    public void info(String message);
-
-    /**
-     * Write info log level
-     * @param message log message
-     * @param throwable throwable
-     */
-    public void info(String message, Throwable throwable);
-
-    /**
      * Write info log into file which located into external storage
      * @param file file name
      * @param message log message
      * @param throwable throwable
      */
     public void info(File file, String message, Throwable throwable);
-
-    /**
-     * Write verbose log level
-     * @param message log message
-     */
-    public void verbose(String message);
-
-    /**
-     * Write verbose log level
-     * @param message log message
-     * @param throwable throwable
-     */
-    public void verbose(String message, Throwable throwable);
 
     /**
      * Write verbose log into file which located into external storage
@@ -163,18 +99,6 @@ public interface ILogger {
      */
     public void verbose(File file, String message, Throwable throwable);
 
-    /**
-     * Write error log level
-     * @param message log message
-     */
-    public void error(String message);
-
-    /**
-     * Write error log level
-     * @param message log message
-     * @param throwable throwable
-     */
-    public void error(String message, Throwable throwable);
 
     /**
      * Write error log into file which located into external storage
@@ -185,19 +109,6 @@ public interface ILogger {
     public void error(File file, String message, Throwable throwable);
 
     /**
-     * Write exception log level
-     * @param message log message
-     */
-    public void exception(String message);
-
-    /**
-     * Write exception log level
-     * @param message log message
-     * @param throwable throwable
-     */
-    public void exception(String message, Throwable throwable);
-
-    /**
      * Write exception log into file which located into external storage
      * @param file file name
      * @param message log message
@@ -205,18 +116,6 @@ public interface ILogger {
      */
     public void exception(File file, String message, Throwable throwable);
 
-    /**
-     * Write runtime exception log level
-     * @param message log message
-     */
-    public void printRuntimeException(String message);
-
-    /**
-     * Write runtime exception log level
-     * @param message log message
-     * @param throwable throwable
-     */
-    public void printRuntimeException(String message, Throwable throwable);
 
     /**
      * Write runtime exception log into file which located into external storage
@@ -226,18 +125,6 @@ public interface ILogger {
      */
     public void printRuntimeException(File file, String message, Throwable throwable);
 
-    /**
-     * Write fatal error log level
-     * @param message log message
-     */
-    public void printFatalError(String message);
-
-    /**
-     * Write fatal error log level
-     * @param message log message
-     * @param throwable throwable
-     */
-    public void printFatalError(String message, Throwable throwable);
 
     /**
      * Write fatal error log into file which located into external storage
