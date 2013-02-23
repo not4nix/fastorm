@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aa05bb6-e0ac-47f6-ac9a-91768ed2c0b2" name="Default" comment="Added DAO exception">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fastorm/ApplicationCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fastorm/ApplicationManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fastorm/model/Entity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fastorm/util/TableUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/ApplicationCache.java" afterPath="$PROJECT_DIR$/src/com/fastorm/ApplicationCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/ApplicationManager.java" afterPath="$PROJECT_DIR$/src/com/fastorm/ApplicationManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/query/dao/BaseDAO.java" afterPath="$PROJECT_DIR$/src/com/fastorm/query/dao/BaseDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/query/BaseQuery.java" afterPath="$PROJECT_DIR$/src/com/fastorm/query/BaseQuery.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/annotations/Column.java" afterPath="$PROJECT_DIR$/src/com/fastorm/annotations/Column.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/Config.java" afterPath="$PROJECT_DIR$/src/com/fastorm/Config.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/annotations/Constraint.java" afterPath="$PROJECT_DIR$/src/com/fastorm/annotations/Constraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/query/dao/exception/DAOException.java" afterPath="$PROJECT_DIR$/src/com/fastorm/query/dao/exception/DAOException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/query/DatabaseColumn.java" afterPath="$PROJECT_DIR$/src/com/fastorm/query/DatabaseColumn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/annotations/DatabaseTable.java" afterPath="$PROJECT_DIR$/src/com/fastorm/annotations/DatabaseTable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/model/Entity.java" afterPath="$PROJECT_DIR$/src/com/fastorm/model/Entity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/logging/ILogger.java" afterPath="$PROJECT_DIR$/src/com/fastorm/logging/ILogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/logging/Logger.java" afterPath="$PROJECT_DIR$/src/com/fastorm/logging/Logger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/logging/LoggerImpl.java" afterPath="$PROJECT_DIR$/src/com/fastorm/logging/LoggerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/query/Queryable.java" afterPath="$PROJECT_DIR$/src/com/fastorm/query/Queryable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fastorm/util/TableUtils.java" afterPath="$PROJECT_DIR$/src/com/fastorm/util/TableUtils.java" />
     </list>
     <ignored path="fastorm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +27,7 @@
     <file path="/Column.java" changelist="0aa05bb6-e0ac-47f6-ac9a-91768ed2c0b2" time="1360490978323" ignored="false" />
     <file path="/Constraint.java" changelist="0aa05bb6-e0ac-47f6-ac9a-91768ed2c0b2" time="1360622280710" ignored="false" />
     <file path="/DatabaseTable.java" changelist="0aa05bb6-e0ac-47f6-ac9a-91768ed2c0b2" time="1360622898925" ignored="false" />
-    <file path="/Dummy.txt" changelist="0aa05bb6-e0ac-47f6-ac9a-91768ed2c0b2" time="1361576372871" ignored="false" />
+    <file path="/Dummy.txt" changelist="0aa05bb6-e0ac-47f6-ac9a-91768ed2c0b2" time="1361576934170" ignored="false" />
     <file path="/ExtendedLogger.java" changelist="0aa05bb6-e0ac-47f6-ac9a-91768ed2c0b2" time="1360693962953" ignored="false" />
     <file path="/Logger.java" changelist="0aa05bb6-e0ac-47f6-ac9a-91768ed2c0b2" time="1360968123492" ignored="false" />
     <file path="/LogLevelType.java" changelist="0aa05bb6-e0ac-47f6-ac9a-91768ed2c0b2" time="1360954255628" ignored="false" />
@@ -47,6 +58,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -81,7 +93,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -90,17 +101,7 @@
     <favorites_list name="fastorm" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Entity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/fastorm/model/Entity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.030195381">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -123,22 +124,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/fastorm/query/Query.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/query/Insert.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/query/Update.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/query/dao/BaseDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/query/Queryable.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/query/DatabaseColumn.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/query/BaseQuery.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/query/dao/exception/DAOException.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/logging/LoggerImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/annotations/Column.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/model/Entity.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/annotations/Constraint.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/annotations/DatabaseTable.java" />
         <option value="$PROJECT_DIR$/src/com/fastorm/logging/ILogger.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/query/Select.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/logging/Logger.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/logging/LoggerImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/query/BaseQuery.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/query/DatabaseColumn.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/query/Queryable.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/query/dao/BaseDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/query/dao/exception/DAOException.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/util/TableUtils.java" />
         <option value="$PROJECT_DIR$/src/com/fastorm/ApplicationCache.java" />
         <option value="$PROJECT_DIR$/src/com/fastorm/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/util/TableUtils.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/model/ForeignKeyType.java" />
-        <option value="$PROJECT_DIR$/src/com/fastorm/model/Entity.java" />
+        <option value="$PROJECT_DIR$/src/com/fastorm/Config.java" />
       </list>
     </option>
   </component>
@@ -210,7 +211,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,8 +247,175 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fastorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,15 +429,32 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -294,42 +478,12 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -357,6 +511,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -605,107 +772,144 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/fastorm/annotations/Column.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/annotations/DatabaseTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="49" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/logging/util/LoggingUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="27" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/query/Queryable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/query/DatabaseColumn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/query/dao/exception/DAOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="16" selection-start="1643" selection-end="1722" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/logging/ILogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="0" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/logging/LoggerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="26" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/query/dao/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/query/BaseQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/ApplicationCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fastorm/util/TableUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+        <state line="4" column="11" selection-start="0" selection-end="615" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fastorm/annotations/Constraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="209" selection-end="262" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#1006#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/annotations/DatabaseTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#1046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/logging/ILogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#4125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#4299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/logging/LoggerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#3059#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fastorm/model/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.030195381">
-          <folding />
+        <state line="17" column="13" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/query/BaseQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/query/DatabaseColumn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#1864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/query/Queryable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/query/dao/BaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/query/dao/exception/DAOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#1022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/util/TableUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/ApplicationCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="60" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fastorm/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="615" selection-end="615" vertical-scroll-proportion="0.42273533">
+          <folding>
+            <element signature="e#0#668#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
